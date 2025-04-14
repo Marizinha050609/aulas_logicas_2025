@@ -54,13 +54,13 @@ switch(op){
 
     //verificar qual letra é igual
     let letra = prompt("digite uma letra").toLocaleLowerCase()
-
+//Quando usamos switch com variavel, o swtich compara exatamente o valor da variavel com cases definidos
     switch(letra){
-        case: "A"
-        case: "E"
-        case: "I"
-        case: "O"
-        case:"U"
+        case: "A":
+        case: "E":
+        case: "I":
+        case: "O":
+        case:"U":
      console.log("vogal")  
       break:
       default:
@@ -71,7 +71,7 @@ switch(op){
 
     //converter a nota em numero para letra 
     let nota = parseInt(promt("digite a nota do aluno"))
-
+// o switch(true) verifica quais expressões dentro do case retornam true(verdade) ou seja comparamos as expressões booleanas
     switch(true){
         case nota >= 90:
             console.log("nota A");

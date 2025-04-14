@@ -16,7 +16,8 @@ else if(idade >= 11 && idade 17){
 }
  else if(idade > 18 && idade 59){
     console.log("adulto")
- }
+ 
+}
  else if(idade >= 60)
  {
     console.log("idoso")
